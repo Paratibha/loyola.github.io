@@ -1,0 +1,161 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us - Restaurant</title>
+    <style>
+        /* Basic page styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* About Us section */
+        .about-us {
+            padding: 40px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .about-us h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .about-us p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        /* Team section styling */
+        .team {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .team-member {
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .team-member img {
+            width: 100%;
+            height: auto;
+            border-bottom: 5px solid #333;
+        }
+
+        .team-member h2 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .team-member h3 {
+            font-size: 18px;
+            color: #777;
+            margin: 5px 0;
+        }
+
+        .team-member p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.4;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+      <section class="about-us">
+        <h1>About Us</h1>
+        <p>Meet the passionate individuals who bring our restaurant to life!</p>
+        
+        <div class="team">
+            <!-- Owner 1 Section -->
+            <div class="team-member">
+                <img src="C:\Users\Shyam Sundar Yadav\Pictures\Camera Roll\pra.jpg">
+                <h2>PRATIBHA KUMARI</h2>
+                <h3>Owner</h3>
+                <p>Pratibha founded the restaurant with a vision to create a space where people can enjoy delicious meals and great company. Her passion for hospitality drives the overall direction of the restaurant, and she ensures that every detail is perfect.</p>
+            </div>
+
+            <!-- Owner 2 Section -->
+            <div class="team-member">
+                <img src="C:\Users\Shyam Sundar Yadav\Pictures\Screenshots\6.jpg">
+                <h2>ADITYA KUMAR RAJAK</h2>
+                <h3>Owner</h3>
+                <p>Aditya, co-owner of the restaurant, focuses on the business side and strategic growth. He brings years of experience in the food industry and ensures the restaurant is always evolving and improving for the guests and team.</p>
+            </div>
+
+            <!-- Manager 1 Section -->
+            <div class="team-member">
+                <img src="C:\Users\Shyam Sundar Yadav\Pictures\Camera Roll\sum.jpg">
+                <h2>SANYA YADAV </h2>
+                <h3>Manager</h3>
+                <p>Sanya has been with us since the beginning, bringing her expertise in managing staff and operations. She ensures the restaurant runs smoothly, from customer service to employee satisfaction, creating a welcoming atmosphere for all.</p>
+            </div>
+
+            <!-- Manager 2 Section -->
+            <div class="team-member">
+                <img src="C:\Users\Shyam Sundar Yadav\Pictures\Camera Roll\ro.jpg">
+                <h2>ROSHAN KUMAR THAKUR </h2>
+                <h3>Manager</h3>
+                <p>Roshan, our second manager, focuses on daily operations and ensures the kitchen and dining room are well-organized. His attention to detail and leadership skills make him an essential part of our team.</p>
+            </div>
+
+            <!-- Chef Section -->
+            <div class="team-member">
+                <img src="C:\Users\Shyam Sundar Yadav\Pictures\Camera Roll\im.jpg">
+                <h2>IMRAN ANSARI</h2>
+                <h3>Head Chef</h3>
+                <p>Imran brings a wealth of culinary expertise to the kitchen. He crafts every dish with precision, passion, and a touch of creativity. Under his leadership, our kitchen serves up fresh, flavorful meals that guests rave about.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Name | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

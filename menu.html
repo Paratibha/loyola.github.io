@@ -1,0 +1,116 @@
+/<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .menu-category {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .menu-category:hover {
+            transform: scale(1.05);
+        }
+        .menu-category h2 {
+            color: #333;
+        }
+        .menu-item {
+            margin: 10px 0;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .menu-item span {
+            color: #555;
+        }
+        .price {
+            color: #28a745;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Our Restaurant Menu</h1>
+    </header>
+
+    <div class="menu-container">
+
+        <!-- Appetizers -->
+        <div class="menu-category">
+            <h2>Appetizers</h2>
+
+            <div class="menu-item">
+                <span>Bruschetta</span><span class="price">$8.99</span>
+            </div>
+<br>
+
+            <div class="menu-item">
+                <span>Garlic Bread</span><span class="price">$5.49</span>
+            </div>
+<br>
+
+              <div class="menu-item">
+                <span>Stuffed Mushrooms</span><span class="price">$9.99</span>
+            </div>
+        </div>
+<br>
+        <!-- Main Dishes -->
+        <div class="menu-category">
+            <h2>Main Dishes</h2>
+            <div class="menu-item">
+                <span>Grilled Salmon</span><span class="price">$18.99</span>
+            </div>
+            <div class="menu-item">
+                <span>Spaghetti Bolognese</span><span class="price">$14.49</span>
+            </div>
+            <div class="menu-item">
+                <span>Chicken Parmesan</span><span class="price">$16.99</span>
+            </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu-category">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <span>Chocolate Cake</span><span class="price">$6.99</span>
+            </div>
+            <div class="menu-item">
+                <span>Cheesecake</span><span class="price">$7.49</span>
+            </div>
+<br>
+            <div class="menu-item">
+                <span>Ice Cream Sundae</span><span class="price">$5.99</span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

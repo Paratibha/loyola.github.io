@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            font-size: 14px;
+            color: #333;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 15px;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Delivery Form</h2>
+    <form action="/submit-delivery" method="POST">
+        <!-- Customer Information -->
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="address">Delivery Address</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" required>
+
+        <label for="zip">Postal Code</label>
+        <input type="text" id="zip" name="zip" required>
+
+        <label for="deliveryDate">Preferred Delivery Date</label>
+        <input type="date" id="deliveryDate" name="deliveryDate" required>
+
+        <label for="deliveryTime">Preferred Delivery Time</label>
+        <select id="deliveryTime" name="deliveryTime" required>
+            <option value="morning">Morning (8am - 12pm)</option>
+            <option value="afternoon">Afternoon (12pm - 4pm)</option>
+            <option value="evening">Evening (4pm - 8pm)</option>
+        </select>
+
+        <input type="submit" value="Submit Delivery Request">
+    </form>
+</div>
+
+</body>
+</html>
