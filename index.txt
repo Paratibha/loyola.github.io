@@ -8,7 +8,7 @@
 <body>
 <FONT FACE="ALGERIAN" COLOR="RED" SIZE="20 ALIGN="CENTRE">
 <H1> PARIS RESTAURANT</H1>
-<IMG src="file:///C:/Users/Shyam%20Sundar%20Yadav/Pictures/New%20folder/premium_photo-1661883237884-263e8de8869b.jpg" align="centre">
+<IMG src="https://unsplash.com/photos/3d-render-of-luxury-restaurant-interior-V9CVO_cv-78" align="centre">
 </FONT>
   <header>
     <nav>
